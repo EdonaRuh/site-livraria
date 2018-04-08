@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body html{
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Tahoma, sans-serif;
+	overflow: hidden;
+}
+
+.topo-pg{
+	background-color: rgb(28 28 28 );
+	width: 100%;
+	height: 200px;
+}
+.links{
+	margin-right: 30px;
+	padding-top: 8px;
+}
+.links ul li{
+	display: inline-block;
+	margin-right: 7px;
+}
+.logo img{
+	padding-top: 3px;
+}
+
+.menu-topo{
+	width: 80%;
+	padding-left: 16%;
+	padding-top: 40px;
+	font-family: Optima, sans-serif;
+	font-size: 15px;
+	color: white;	
+}
+
+.wallpaper{
+	width: 100%;
+	height: 320px;
+	background-image: url("img/wallpaper1.png");
+	background-size: 100% 100%;
+}
+.texto-topo{
+	width: 69%;
+	height: 320px;
+	padding-top: 69px;
+	font-family: Courier, monospace;
+	font-size: 27px;
+	padding-left: 20px;
+}
+
+.texto-interno p {
+	opacity: .100;
+}
+
+.destaques{
+	background-image: url("img/brushed.png");
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.dentro-destaque{
+	width: 80%;
+	height: 170px;
+	margin-left: 15%;
+	padding-top: 55px;
+	overflow: hidden;
+}
+.primeira-palavra{
+	font-family: Blippo, fantasy;
+	font-size: 20px;
+}
+.segunda-palavra{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-size: 28px;
+	color: rgb(72 118 255);
+}
+
+.destaque-livros{
+	width: 70%;
+	height: 480px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.foto-livro{
+	width: 75%;
+	height: 285px;
+	padding-top: 5px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(205 197 191 );
+}
+
+.destaque-livros p{
+	padding-top: 10px;
+}
+
+.desc{
+	color: rgb(130 130 130 );
+	width: 85%;
+}
+.btn{
+	background-color: white;
+	width: 100%;
+	border-radius: 20px;
+	padding-right: 8%;
+	margin-bottom: 5px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-size: 14px;
+}
+
+.foto-relacionados{
+	width: 100%;
+	height: 285px;
+	padding-top: 5px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(205 197 191 );
+}
+
+.autor{
+	color: rgb(130 130 130 );
+	font-size: 16px;
+}
+.editora{
+	color: rgb(58 95 205 );
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-size: 16px;
+}
+
+.rodape{
+	background-color: black;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	color: white;
+}
+.fundo{
+	width: 100%;
+	height: 150px;
+	margin-top: 5px;
+}
+
+.links-fundo{
+	padding-top: 20px;
+	padding-left: 45px;
+}
+.links-fundo small{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-style: italic;
+	color:rgb(58 95 205 );
+}
+
+.final{
+	font-size: 13px;
+	padding-top: 24px;
+}
